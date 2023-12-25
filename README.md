@@ -65,7 +65,7 @@ Action Filter Attribute
 Api/ActionFilters/CustomAuthorize.cs
 ```
 
-Users controller provides authentication.
+``UsersController`` provides authentication.
 * To test the login, ``username: "admin"`` and ``password: "123"`` could be used as the payload. URI: ``/api/Users/login``
 * Another endpoint with URI: ``/api/Users/test`` were utilized for testing purposes. When a ``GET`` request is sent, if the user is already logged in, the method returns the username; otherwise, a 401 Unauthorized status is returned by ``CustomAuthorized`` action filter attribute.
 
