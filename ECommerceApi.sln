@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patika-Akbank-Bootcamp-Cohorts-W2-HW1", "Patika-Akbank-Bootcamp-Cohorts-W2-HW1\Patika-Akbank-Bootcamp-Cohorts-W2-HW1.csproj", "{E6E86B9C-C190-4397-9C1E-3D401912DD65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "Api\Api.csproj", "{E6E86B9C-C190-4397-9C1E-3D401912DD65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

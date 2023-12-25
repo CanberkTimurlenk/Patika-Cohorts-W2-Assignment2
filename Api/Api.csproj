@@ -4,7 +4,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>Patika_Akbank_Bootcamp_Cohorts_W2_HW1</RootNamespace>
+    <RootNamespace>ECommerceApi</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
