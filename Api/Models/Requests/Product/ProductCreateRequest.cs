@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Patika_Akbank_Bootcamp_Cohorts_W2_HW1.Models.Requests.Product
+namespace ECommerceApi.Models.Requests.Product
 {
     public class ProductCreateRequest
     {

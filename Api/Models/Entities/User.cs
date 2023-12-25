@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Patika_Akbank_Bootcamp_Cohorts_W2_HW1.Models.Entities
+namespace ECommerceApi.Models.Entities
 {
     [NotMapped]
     public class User

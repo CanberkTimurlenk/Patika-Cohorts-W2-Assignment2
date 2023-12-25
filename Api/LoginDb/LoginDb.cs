@@ -1,6 +1,6 @@
-﻿using Patika_Akbank_Bootcamp_Cohorts_W2_HW1.Models.Entities;
+﻿using ECommerceApi.Models.Entities;
 
-namespace Patika_Akbank_Bootcamp_Cohorts_W2_HW1.LoginDb
+namespace ECommerceApi.LoginDb
 {
     public static class Db
     {

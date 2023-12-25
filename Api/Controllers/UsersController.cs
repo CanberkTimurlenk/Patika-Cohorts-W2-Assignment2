@@ -1,10 +1,9 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Patika_Akbank_Bootcamp_Cohorts_W2_HW1.Models.Entities;
-using Patika_Akbank_Bootcamp_Cohorts_W2_HW1.LoginDb;
-using Patika_Akbank_Bootcamp_Cohorts_W2_HW1.ActionFilters;
+﻿using Microsoft.AspNetCore.Mvc;
+using ECommerceApi.Models.Entities;
+using ECommerceApi.LoginDb;
+using ECommerceApi.ActionFilters;
 
-namespace Patika_Akbank_Bootcamp_Cohorts_W2_HW1.Controllers
+namespace ECommerceApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -25,7 +24,7 @@ namespace Patika_Akbank_Bootcamp_Cohorts_W2_HW1.Controllers
                 return BadRequest("Login Failed");
         }
 
-        [CustomAuthorized]
+        [CustomAuthorize]
         [HttpGet]
         [Route("test")]
         public IActionResult Test()

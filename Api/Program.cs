@@ -1,7 +1,7 @@
+using ECommerceApi.Contexts;
+using ECommerceApi.Extensions;
+using ECommerceApi.Middlewares;
 using Microsoft.EntityFrameworkCore;
-using Patika_Akbank_Bootcamp_Cohorts_W2_HW1.Contexts;
-using Patika_Akbank_Bootcamp_Cohorts_W2_HW1.Extensions;
-using Patika_Akbank_Bootcamp_Cohorts_W2_HW1.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 

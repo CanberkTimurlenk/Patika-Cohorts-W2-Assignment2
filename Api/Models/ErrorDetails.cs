@@ -1,6 +1,6 @@
 ﻿using System.Text.Json;
 
-namespace Patika_Akbank_Bootcamp_Cohorts_W2_HW1.Models
+namespace ECommerceApi.Models
 {
     public class ErrorDetails
     {

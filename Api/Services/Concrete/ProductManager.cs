@@ -1,12 +1,12 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Patika_Akbank_Bootcamp_Cohorts_W2_HW1.Contexts;
-using Patika_Akbank_Bootcamp_Cohorts_W2_HW1.Exceptions;
-using Patika_Akbank_Bootcamp_Cohorts_W2_HW1.Models.Entities;
-using Patika_Akbank_Bootcamp_Cohorts_W2_HW1.Models.Requests.Product;
-using Patika_Akbank_Bootcamp_Cohorts_W2_HW1.Models.Responses.Product;
-using Patika_Akbank_Bootcamp_Cohorts_W2_HW1.Services.Abstract;
+﻿using ECommerceApi.Contexts;
+using ECommerceApi.Exceptions;
+using ECommerceApi.Models.Entities;
+using ECommerceApi.Models.Requests.Product;
+using ECommerceApi.Models.Responses.Product;
+using ECommerceApi.Services.Abstract;
+using Microsoft.EntityFrameworkCore;
 
-namespace Patika_Akbank_Bootcamp_Cohorts_W2_HW1.Services.Concrete
+namespace ECommerceApi.Services.Concrete
 {
     public class ProductManager : IProductService
     {

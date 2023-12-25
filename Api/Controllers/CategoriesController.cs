@@ -1,9 +1,9 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using ECommerceApi.Models.Requests.Category;
+using ECommerceApi.Services.Abstract;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Patika_Akbank_Bootcamp_Cohorts_W2_HW1.Models.Requests.Product;
-using Patika_Akbank_Bootcamp_Cohorts_W2_HW1.Services.Abstract;
 
-namespace Patika_Akbank_Bootcamp_Cohorts_W2_HW1.Controllers
+namespace ECommerceApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -19,7 +19,7 @@ namespace Patika_Akbank_Bootcamp_Cohorts_W2_HW1.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAllCategories()
         {
-            var categories = await _categoryService.GetAllAsync(); 
+            var categories = await _categoryService.GetAllAsync();
             return Ok(categories); // return 200 + data
         }
 

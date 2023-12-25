@@ -1,4 +1,4 @@
-﻿namespace Patika_Akbank_Bootcamp_Cohorts_W2_HW1.Exceptions
+﻿namespace ECommerceApi.Exceptions
 {
     public abstract class NotFoundException : Exception
     {

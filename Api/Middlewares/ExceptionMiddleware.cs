@@ -1,8 +1,7 @@
-﻿using Patika_Akbank_Bootcamp_Cohorts_W2_HW1.Exceptions;
-using Patika_Akbank_Bootcamp_Cohorts_W2_HW1.Models;
-using System.Net;
+﻿using ECommerceApi.Exceptions;
+using ECommerceApi.Models;
 
-namespace Patika_Akbank_Bootcamp_Cohorts_W2_HW1.Middlewares
+namespace ECommerceApi.Middlewares
 {
     public class ExceptionMiddleware
     {

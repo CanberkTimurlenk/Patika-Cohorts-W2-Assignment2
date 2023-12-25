@@ -1,8 +1,7 @@
-﻿using Patika_Akbank_Bootcamp_Cohorts_W2_HW1.Models.Entities;
-using Patika_Akbank_Bootcamp_Cohorts_W2_HW1.Models.Requests.Product;
-using Patika_Akbank_Bootcamp_Cohorts_W2_HW1.Models.Responses.Product;
+﻿using ECommerceApi.Models.Requests.Product;
+using ECommerceApi.Models.Responses.Product;
 
-namespace Patika_Akbank_Bootcamp_Cohorts_W2_HW1.Services.Abstract
+namespace ECommerceApi.Services.Abstract
 {
     public interface IProductService
     {

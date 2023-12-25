@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Patika_Akbank_Bootcamp_Cohorts_W2_HW1.Models.Responses.Product
+namespace ECommerceApi.Models.Responses.Product
 {
     public class ProductUpdateResponse
     {

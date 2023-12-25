@@ -1,7 +1,7 @@
-﻿using Patika_Akbank_Bootcamp_Cohorts_W2_HW1.Services.Abstract;
-using Patika_Akbank_Bootcamp_Cohorts_W2_HW1.Services.Concrete;
+﻿using ECommerceApi.Services.Abstract;
+using ECommerceApi.Services.Concrete;
 
-namespace Patika_Akbank_Bootcamp_Cohorts_W2_HW1.Extensions
+namespace ECommerceApi.Extensions
 {
     public static class ServiceCollectionExtensions
     {

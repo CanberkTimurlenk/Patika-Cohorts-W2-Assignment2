@@ -1,10 +1,9 @@
-﻿using Microsoft.AspNetCore.JsonPatch;
+﻿using ECommerceApi.Models.Requests.Product;
+using ECommerceApi.Services.Abstract;
+using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
-using Patika_Akbank_Bootcamp_Cohorts_W2_HW1.Models.Entities;
-using Patika_Akbank_Bootcamp_Cohorts_W2_HW1.Models.Requests.Product;
-using Patika_Akbank_Bootcamp_Cohorts_W2_HW1.Services.Abstract;
 
-namespace Patika_Akbank_NET_Bootcamp_Cohorts_Week_1_Homework_1.Controllers
+namespace ECommerceApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

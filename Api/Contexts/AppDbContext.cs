@@ -1,7 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Patika_Akbank_Bootcamp_Cohorts_W2_HW1.Models.Entities;
+﻿using ECommerceApi.Models.Entities;
+using Microsoft.EntityFrameworkCore;
 
-namespace Patika_Akbank_Bootcamp_Cohorts_W2_HW1.Contexts
+namespace ECommerceApi.Contexts
 {
     public class AppDbContext : DbContext
     {
@@ -10,6 +10,6 @@ namespace Patika_Akbank_Bootcamp_Cohorts_W2_HW1.Contexts
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }
 
-        
+
     }
 }

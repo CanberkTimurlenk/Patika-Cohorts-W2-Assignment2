@@ -1,4 +1,4 @@
-﻿namespace Patika_Akbank_Bootcamp_Cohorts_W2_HW1.Models.Entities
+﻿namespace ECommerceApi.Models.Entities
 {
     public class Category
     {
