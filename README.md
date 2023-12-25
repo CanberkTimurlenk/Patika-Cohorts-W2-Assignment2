@@ -1,0 +1,1 @@
+# Patika-Akbank-Bootcamp-Cohorts-W2-HW1
