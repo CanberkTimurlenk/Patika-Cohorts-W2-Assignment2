@@ -16,7 +16,7 @@ Api/Services/Concrete/ProductManager.cs
 Services 
 ```bash
 Api/Services/Abstract/IProductService.cs
-Api/Services/Abstract/IProductService.cs
+Api/Services/Abstract/ICategoryService.cs
 ```
 
 Dependency Injection has been applied in Controllers.
